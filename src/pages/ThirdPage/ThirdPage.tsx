@@ -1,11 +1,11 @@
 import React from 'react'
-
+import "./ThirdPage.css"
 type Props = {}
 
 const ThirdPage = (props: Props) => {
   return (
     <div className="min-h-[816px] py-[160px] px-[80px]  flex justify-center ">
-        <div className="relative min-h-[496px] bg-white rounded-[30px] px-[80px] py-[80px]  ">
+        <div className="relative min-h-[496px] bg-white rounded-[30px] px-[80px] py-[80px] join-us-shadow">
           <div className="flex items-center ">
             <div className="grid grid-cols-1 gap-[24px] max-h-[274px] me-[80px] ">
               <div>
