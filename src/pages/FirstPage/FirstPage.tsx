@@ -1,13 +1,12 @@
-import React from 'react'
 import "../../components/Dashboard/Dashboard.css";
 type Props = {}
 
-const FirstPage = (props: Props) => {
+const FirstPage = ({}: Props) => {
   return (
-    <div className="rectangle-image ">
-      <div className="p-[80px] gap-[80px] min-h-[583px]  flex justify-center items-center">
-        <div className="grid gap-[48px] max-w-[714px] max-h-[257px]">
-          <div className="text-[72px] font-extrabold leading-[79.2px] text-[#0F172A]">
+    <div className="rectangle-image">
+      <div className="py-[48px] px-4 lg:p-[80px] gap-[82px] lg:gap-[80px] lg:min-h-[583px] flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:items-center">
+        <div className="flex flex-col items-center text-center gap-[32px] lg:items-start lg:text-start lg:gap-[48px] max-w-[714px] lg:max-h-[257px]">
+          <div className="text-[56px] xs:text-[72px] font-extrabold leading-[79.2px] text-[#0F172A]">
             Collectible Sneakers
           </div>
           <div className="text-[18px] font-normal leading-[28.8px] text-[#0F172A]">
@@ -15,8 +14,8 @@ const FirstPage = (props: Props) => {
             suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
             amet.
           </div>
-          <div className="flex">
-            <button className=" font-medium  text-[16px] leading-6 tracking-[0.5px] p-3 ring-[2px] rounded-lg ring-main-color-2 me-3">
+          <div className="flex ">
+            <button className=" font-medium text-[20px] xs:text-[16px] leading-6 tracking-[0.5px] p-3 ring-[2px] rounded-lg ring-main-color-2 me-3">
               <p className="px-4 text-main-color-2">Sign up now</p>
             </button>
             <button className="flex font-medium  text-[16px] leading-6 tracking-[0.5px] p-3  rounded-lg ring-main-color-2">
@@ -38,19 +37,19 @@ const FirstPage = (props: Props) => {
           </div>
         </div>
 
-        <div className="bg-[#FBBF24] min-w-[367px] min-h-[372px] rounded-[50px] relative">
-          <div className="absolute w-[486px] h-[388px] mt-[-48px] ms-[-50px]">
-            <img src="/public/assets/sneaker.png" alt="sneaker" />
+        <div className="bg-[#FBBF24] z-0 min-w-[272px] min-h-[276px] xs:min-w-[367px] xs:min-h-[372px] rounded-[50px] relative ">
+          <div className="absolute w-[361px] xs:w-[486px] xs:h-[388px] xs:mt-[-48px]  mt-[-38px] ms-[-38px] xs:ms-[-50px]">
+            <img src="/assets/sneaker.png" alt="sneaker" />
           </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 justify min-h-[365px] p-[80px] gap-[80px]">
-        <div className="grid grid-col-1 gap-[10px] ">
+      <div className="grid grid-cols-1 xs:grid-cols-3  min-h-[365px] py-[48px] gap-8 px-[16px] xs:p-[80px] xs:gap-[80px]">
+        <div className="grid grid-col-1 gap-[16px] xs:gap-[10px] text-center place-items-center xs:text-start xs:place-items-start">
           <div className="relative">
-            <img src="/public/assets/cup.png" alt="cup" />
+            <img src="/assets/cup.png" alt="cup" />
             <div className="size-[60px] absolute top-0 ms-7">
-              <img src="/public/assets/Rectangle 25.png" alt="rectangle" />
+              <img src="/assets/Rectangle 25.png" alt="rectangle" />
             </div>
           </div>
           <div className="text-[20px] font-medium leading-[22px] text-[#0F172A] flex items-center">
@@ -63,11 +62,11 @@ const FirstPage = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="grid grid-col-1 gap-[10px] ">
+        <div className="grid grid-col-1 gap-[10px] text-center place-items-center xs:text-start xs:place-items-start">
           <div className="relative">
-            <img className="size-[42.67px] mt-[10.67px] ms-[10.67px]" src="/public/assets/image2.png" alt="cup" />
+            <img className="size-[42.67px] mt-[10.67px] ms-[10.67px]" src="/assets/image2.png" alt="cup" />
             <div className="size-[60px] absolute top-0 ms-7">
-              <img src="/public/assets/Rectangle 26.png" alt="rectangle" />
+              <img src="/assets/Rectangle 26.png" alt="rectangle" />
             </div>
           </div>
           <div className="text-[20px] font-semibold leading-[22px] text-[#0F172A] flex items-center">
@@ -80,11 +79,11 @@ const FirstPage = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="grid grid-col-1 gap-[10px] ">
+        <div className="grid grid-col-1 gap-[10px] text-center place-items-center xs:text-start xs:place-items-start">
           <div className="relative">
-            <img className="size-[64px]" src="/public/assets/tv.png" alt="tv" />
+            <img className="size-[64px]" src="/assets/tv.png" alt="tv" />
             <div className="size-[45px] absolute top-0 ms-10">
-              <img src="/public/assets/Rectangle 27.png" alt="rectangle" />
+              <img src="/assets/Rectangle 27.png" alt="rectangle" />
             </div>
           </div>
           <div className="text-[20px] font-semibold leading-[22px] text-[#0F172A] flex items-center">

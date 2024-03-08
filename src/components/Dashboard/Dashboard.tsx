@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import FirstPage from "../../pages/FirstPage/FirstPage";
 import SecondPage from "../../pages/SecondPage/SecondPage";
 import ThirdPage from "../../pages/ThirdPage/ThirdPage";
@@ -10,10 +9,10 @@ import SixthPage from "../../pages/SixthPage/SixthPage";
 import Footer from "../Footer/Footer";
 type Props = {};
 
-const Dashboard = (props: Props) => {
+const Dashboard = ({}: Props) => {
   return (
     <>
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden ">
         <FirstPage />
         <SecondPage />
         <ThirdPage />

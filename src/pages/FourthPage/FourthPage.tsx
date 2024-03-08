@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import CommentCard from '../../components/CommentCard/CommentCard';
 
 type Props = {}
@@ -97,6 +97,25 @@ const users = [
 function FourthPage(props: Props) {
   const [current, setCurrent] = useState(0);
   const length = users.length;
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
+
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartX.current - touchEndX.current > 50) {
+      nextCard();
+    }
+    if (touchStartX.current - touchEndX.current < -50) {
+      prevCard();
+    }
+  };
 
   const nextCard = () => {
     setCurrent((current + 1) % length);
@@ -111,12 +130,12 @@ function FourthPage(props: Props) {
     return null;
   }
   return (
-    <div className="min-h-[732px]  gap-[80px]">
-        <div className="flex justify-between items-center px-[80px] pt-[80px]">
-          <h2 className="font-extrabold  text-[56px] text-main-color-3 leading-6 tracking-[0.5px]">
+    <div className="xs:min-h-[732px] min-h-[459px] gap-[80px]">
+        <div className="flex justify-center lg:justify-between lg:items-center px-[16px] xs:px-[40px] md:px-[80px] pt-[48px]">
+          <h2 className="md:font-extrabold  md:text-[56px]  text-main-color-3 md:leading-6 md:tracking-[0.5px] font-bold  text-[32px] leading-[35.2px]">
             Because they love us
           </h2>
-          <div className="flex">
+          <div className="hidden lg:flex">
             <button onClick={prevCard}>
               <svg
                 width="54"
@@ -290,9 +309,12 @@ function FourthPage(props: Props) {
           </div>
         </div>
 
-        <div className="relative ">
-          <div className="flex justify-center min-h-[421px] bg-[#FDE68A] mt-[40px] mx-[40px] ">
-            <div className=" absolute flex mt-10 space-x-6" style={{ transform: `translateX(-${current * (100 / length)}%)`, transition: "transform 1s cubic-bezier(0.4, 0, 0.2, 1)" }}>
+        <div className="relative "
+         onTouchStart={handleTouchStart}
+         onTouchMove={handleTouchMove}
+         onTouchEnd={handleTouchEnd}>
+          <div className="flex justify-center min-h-[277px] xs:min-h-[421px] bg-[#FDE68A] xs:mt-[40px] mt-[16px] lg:mx-[40px] ">
+            <div className=" absolute flex mt-4 xs:mt-10 space-x-4 xs:space-x-6" style={{ transform: `translateX(-${current * (100 / length)}%)`, transition: "transform 1s cubic-bezier(0.4, 0, 0.2, 1)" }}>
               {users.map((user, index) => (
                 <CommentCard
                   key={user.id}

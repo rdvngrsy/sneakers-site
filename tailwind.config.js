@@ -6,6 +6,29 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '391px',
+        // => @media (min-width: 520px) { ... }
+  
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+        '3xl': '1922px', //2k için ekran
+        
+        '4xl': '3840px', // 4k ekran için yeni bir ekran boyutu ekledik
+  
+      },
       colors: {
         'main-color-1': '#FFFBEC',
         'main-color-2': '#78350F',
