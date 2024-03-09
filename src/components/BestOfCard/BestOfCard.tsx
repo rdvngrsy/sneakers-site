@@ -1,4 +1,3 @@
-import React from "react";
 import "./BestOfCard.css";
 type Props = {};
 
