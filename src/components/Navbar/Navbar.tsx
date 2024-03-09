@@ -19,10 +19,10 @@ const Navbar = (props: Props) => {
           >
             {isMenuOpen ? (
               <div className="max-w-[24px] max-h-[24px] ">
-                <img src="../../../public/assets/x-mark-24.png" />
+                <img src="../../../assets/x-mark-24.png" />
               </div>
             ) : (
-              <img src="../../../public/assets/menu-scale.png" />
+              <img src="../../../assets/menu-scale.png" />
             )}
           </div>
           <div className="lg:hidden p-1  ">

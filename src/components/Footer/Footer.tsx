@@ -81,22 +81,22 @@ const Footer = ({}: Props) => {
               </li>
               <li className="pt-3 mb-[11px] text-[16px] font-normal leading-[17.6px] flex justify-center sm:justify-start ">
                 <img
-                  src="../../../public/assets/App Store - Filled.png"
+                  src="../../../assets/App Store - Filled.png"
                   alt=""
                 />
               </li>
               <li className=" text-[16px] font-normal leading-[17.6px] flex justify-center sm:justify-start">
-                <img src="../../../public/assets/Google Play.png" alt="" />
+                <img src="../../../assets/Google Play.png" alt="" />
               </li>
               <li className="text-[#E2E8F0] pt-12 mb-3 sm:mb-0 text-[16px] font-medium leading-[17.6px]">
                 Follow Us
               </li>
               <li className="flex py-3 text-[16px] font-normal leading-[17.6px] space-x-4 ">
-                <img src="../../../public/assets/youtube.png" alt="" />
-                <img src="../../../public/assets/facebook.png" alt="" />
-                <img src="../../../public/assets/twitter.png" alt="" />
-                <img src="../../../public/assets/instagram.png" alt="" />
-                <img src="../../../public/assets/linkedin.png" alt="" />
+                <img src="../../../assets/youtube.png" alt="" />
+                <img src="../../../assets/facebook.png" alt="" />
+                <img src="../../../assets/twitter.png" alt="" />
+                <img src="../../../assets/instagram.png" alt="" />
+                <img src="../../../assets/linkedin.png" alt="" />
               </li>
             </ul>
           </div>
@@ -115,7 +115,7 @@ const Footer = ({}: Props) => {
             <p>Contact</p>
           </li>
           <li className="flex items-center space-x-2">
-            <img src="../../../public/assets/world.png" alt="" />
+            <img src="../../../assets/world.png" alt="" />
             <div className="pt-1">
               <p>EN</p>
             </div>

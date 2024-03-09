@@ -32,7 +32,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/search.png"
+                  src="../../../assets/search.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -41,7 +41,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Bibendum tellus" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -58,7 +58,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/shield-check.png"
+                  src="../../../assets/shield-check.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -67,7 +67,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Cras eget" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -84,7 +84,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/rocket.png"
+                  src="../../../assets/rocket.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -93,7 +93,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Dolor pharetra" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -110,7 +110,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/screen.png"
+                  src="../../../assets/screen.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -119,7 +119,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Amet, fringilla" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -136,7 +136,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/podcast.png"
+                  src="../../../assets/podcast.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -145,7 +145,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Amet nibh" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -162,7 +162,7 @@ function FifthPage({}: Props) {
               >
                 <img
                   className="ms-4"
-                  src="../../../public/assets/settings-alt.png"
+                  src="../../../assets/settings-alt.png"
                   alt=""
                 />
                 <p className="px-4 text-[20px] font-medium leading-[24px] tracking-[0.5px]">
@@ -171,7 +171,7 @@ function FifthPage({}: Props) {
                 {activeTab === "Sed velit" ? (
                   <img
                     className="me-4 md:block hidden"
-                    src="../../../public/assets/arrow-right.png"
+                    src="../../../assets/arrow-right.png"
                     alt=""
                   />
                 ) : (
@@ -183,7 +183,7 @@ function FifthPage({}: Props) {
             <div>
               <img
                 className="min-h-[259px] min-w-[361px] md:ps-20 mt-8 xs:mt-0"
-                src="../../../public/assets/Col.png"
+                src="../../../assets/Col.png"
                 alt=""
               />
             </div>
@@ -191,7 +191,7 @@ function FifthPage({}: Props) {
         </div>
         <img
           className="min-w-[1440px] w-full "
-          src="../../../public/assets/Bg-Waves.png"
+          src="../../../assets/Bg-Waves.png"
           alt=""
         />
       </div>

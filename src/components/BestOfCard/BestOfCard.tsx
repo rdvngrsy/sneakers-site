@@ -5,13 +5,13 @@ function BestOfCard({}: Props) {
   return (
     <div className="min-h-[472px] gap-8 lg:gap-[48px] flex flex-col items-center lg:flex-row justify-center">
       <div className="absolute rotate-90  me-[0px] mt-[140px] xs:me-[40px] lg:me-[0px] min-w-[1012px] lg:max-w-[1356px] lg:rotate-0 lg:mt-[-31px]  z-0">
-        <img className=" " src="../../public/assets/Backlights.png" alt="" />
+        <img className=" " src="../../assets/Backlights.png" alt="" />
       </div>
       <div className="grid grid-cols-1 max-w-[394px] bg-main-color-3 text-white rounded-[10px] card-shadow z-10 ">
         <div className="min-h-[220px]">
           <img
             className="rounded-t-[10px]"
-            src="../../../public/assets/best1.png"
+            src="../../../assets/best1.png"
             alt="rectangle"
           />
         </div>
@@ -47,7 +47,7 @@ function BestOfCard({}: Props) {
         <div className="min-h-[220px] ">
           <img
             className="rounded-t-[10px]"
-            src="../../../public/assets/best2.png"
+            src="../../../assets/best2.png"
             alt="rectangle"
           />
         </div>
@@ -83,7 +83,7 @@ function BestOfCard({}: Props) {
         <div className="min-h-[220px]">
           <img
             className="rounded-t-[10px]"
-            src="../../../public/assets/best3.png"
+            src="../../../assets/best3.png"
             alt="rectangle"
           />
         </div>

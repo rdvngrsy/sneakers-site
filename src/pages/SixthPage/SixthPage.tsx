@@ -8,14 +8,14 @@ const SixthPage = (props: Props) => {
       <div className="relative flex xs:justify-center ms-[21px]">
         <img
           className="absolute mt-[-40px] ms-[12px] md:mt-[-45px] md:ms-[-740px]"
-          src="../../../public/assets/mapShoes.png"
+          src="../../../assets/mapShoes.png"
           alt=""
         />
         <div className="flex xs:justify-center">
-          <img className="w-[1049px] h-[633px] flex-shrink-0 xs:object-cover object-cover object-left" src="../../../public/assets/chart.png" alt="" />
+          <img className="w-[1049px] h-[633px] flex-shrink-0 xs:object-cover object-cover object-left" src="../../../assets/chart.png" alt="" />
           <img
             className="absolute w-[724px] h-[456px] mt-[65px] ms-[212px] md:mt-[65px] md:ms-[88px] flex-shrink-0 xs:object-cover object-cover object-left"
-            src="../../../public/assets/Ellipses.png"
+            src="../../../assets/Ellipses.png"
             alt=""
           />
           <div className="absolute text-[#FFFBEB] text-center px-[50px] py-[276px] md:py-[228.5px]">
